@@ -1,0 +1,38 @@
+body {
+font-family : "Times New Roman", Times, serif;
+margin : 0;
+}
+
+.img {
+max-width : 100%;
+}
+
+fieldset {
+width: auto;
+height: auto;
+border : solid 0.05em;
+box-sizing: border-box;
+}
+
+
+legend {
+padding : 0.5em 0.5em;
+border : solid 0.1em;
+font-size : 90%;
+text-align : left;
+}
+
+
+
+textarea{
+    width: auto;
+    height: auto;
+}
+
+textarea:focus{
+    background: pink;
+}
+
+input:focus{
+    background:pink;
+}
