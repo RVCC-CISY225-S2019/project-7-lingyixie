@@ -36,3 +36,245 @@ textarea:focus{
 input:focus{
     background:pink;
 }
+
+
+/*  grids */
+
+main {
+	display: grid;
+}
+
+/* hero content */
+
+.content {
+	display: grid;
+}
+
+/* about content */
+
+.about-content {
+	display: grid;
+}
+
+/*  gallery */
+
+.gallery {
+	display: grid;
+}
+
+/*  article */
+
+article {
+	display: grid;
+}
+
+/* form container */
+.form-container {
+	display: grid;
+}
+
+/* footer */
+
+footer {
+	display: grid;
+}
+
+/* footer */
+
+footer {
+	display: grid;
+	border-top: 1px solid #ccc;
+	text-align: center;
+	margin-top: 20px;
+}
+
+/*  layout */
+
+/*   mobile is the default layout*/
+
+/* hero content */
+.hero .content picture{
+	width: 90%;
+	margin: 0 auto;
+	
+}
+.hero .content p{
+	margin: 5px 0;
+}
+.hero .content picture{
+	margin-bottom: 50px;
+	display: block;
+}
+/*	about content */
+.about-content{
+	width: 80%;
+	margin-bottom: 50px;
+}
+.about-content p{
+	margin: 5px 0;
+}
+.about-content .my-info{
+	padding-left: 50px;
+}
+/*	gallery */
+.gallery .content figure{
+	width: 90%;
+	border:0;
+	margin: 0 auto 20px;
+}
+.gallery .content figure figcaption{
+	font-size: 16px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+/*	article */
+article{
+	font-size: 18px;
+	text-align: left;
+	
+}
+article p{
+	line-height: 1.6;
+	margin:10px 0;
+}
+/*	form */
+.story, .form-container{
+	width: 90%;
+	padding: 0;
+	margin: 0 auto;
+}
+.story h1, .form-container h2{
+	font-size: 32px;
+	text-align: center;
+}
+
+/* wide screen layout >=64rem (1024px) */
+
+@media screen and (min-width: 64rem) {
+
+	/* hero content */
+
+	.hero .content{
+		width: 60%;
+	    margin: 20px auto 0;
+
+	}
+	.hero .content p{
+		padding-left: 200px;
+	}
+	/* about content */
+
+	.about-content {
+		display: grid;
+		width: 60%;
+	    margin: 0 auto 0;
+	}
+	.about-content p{
+		padding-left: 200px;
+	}
+	.about-content .my-info{
+		padding-left: 300px;
+	}
+	/*  gallery */
+	.gallery .content{
+		display: flex;
+		margin-top: 50px;
+		margin-bottom: 20px;
+	}
+	.gallery .content figure{
+
+		width: 33%;
+		margin:0;
+		display: flex;
+		border: 1px solid #ccc;
+	}
+	.gallery .content figure picture{
+		width: 50%;
+	}
+	.gallery .content figure figcaption{
+		width: 50%;
+		text-align: center;
+		padding-top: 80px;
+	}
+	/*  article */
+
+	article {
+		display: grid;
+	}
+
+	/* form container */
+	.story,.form-container{
+		width: 60%;
+		margin:0 auto;
+		padding: 0 200px;
+	}
+	.story h1,.form-container h2{
+		text-align: center;
+	}
+
+
+}
+
+/* tablet layout >=48rem (768px) */
+
+@media screen and (min-width: 48rem) and (max-width: 64rem) {
+
+	/* hero content */
+	.hero .content{
+		width: 80%;
+		font-size: 26px;
+	}
+	.hero .content p{
+		margin: 5px 0;
+	}
+	.hero .content picture{
+		margin-bottom: 50px;
+    	display: block;
+	}
+	/*	about content */
+	.about-content{
+		width: 80%;
+		font-size: 26px;
+		margin-bottom: 50px;
+	}
+	.about-content p{
+		margin: 5px 0;
+	}
+
+	/*	gallery */
+	.gallery .content{
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+	}
+	.gallery .content figure{
+		width: 100%;
+		border:0;
+		margin-bottom: 20px;
+	}
+	.gallery .content figure figcaption{
+		font-size: 32px;
+		padding-top: 150px;
+	}
+
+	/*	article */
+	article{
+		font-size: 24px;
+		text-align: left;
+		
+	}
+	article p{
+		line-height: 1.8;
+	}
+	/*	form */
+	.story, .form-container{
+		width: 80%;
+		padding: 0;
+	}
+	.story h1, .form-container h2{
+		font-size: 32px;
+	}
+
+
+}
