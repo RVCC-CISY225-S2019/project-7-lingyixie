@@ -1,40 +1,41 @@
 body {
-font-family : "Times New Roman", Times, serif;
-margin : 0;
+	font-family: "Times New Roman", Times, serif;
+	margin: 0;
+}
+
+img {
+	display: block;
 }
 
 .img {
-max-width : 100%;
+	max-width: 100%;
 }
 
 fieldset {
-width: auto;
-height: auto;
-border : solid 0.05em;
-box-sizing: border-box;
+	width: auto;
+	height: auto;
+	border: solid 0.05em;
+	box-sizing: border-box;
 }
-
 
 legend {
-padding : 0.5em 0.5em;
-border : solid 0.1em;
-font-size : 90%;
-text-align : left;
+	padding: 0.5em 0.5em;
+	border: solid 0.1em;
+	font-size: 90%;
+	text-align: left;
 }
 
-
-
-textarea{
-    width: auto;
-    height: auto;
+textarea {
+	width: auto;
+	height: auto;
 }
 
-textarea:focus{
-    background: pink;
+textarea:focus {
+	background: pink;
 }
 
-input:focus{
-    background:pink;
+input:focus {
+	background: pink;
 }
 
 
@@ -93,58 +94,63 @@ footer {
 /*   mobile is the default layout*/
 
 /* hero content */
-.hero .content picture{
+.hero .content picture {
 	width: 90%;
 	margin: 0 auto;
-	
 }
-.hero .content p{
+
+.hero .content p {
 	margin: 5px 0;
 }
-.hero .content picture{
+
+.hero .content picture {
 	margin-bottom: 50px;
 	display: block;
 }
 /*	about content */
-.about-content{
+.about-content {
 	width: 80%;
 	margin-bottom: 50px;
 }
-.about-content p{
+
+.about-content p {
 	margin: 5px 0;
 }
-.about-content .my-info{
+
+.about-content .my-info {
 	padding-left: 50px;
 }
 /*	gallery */
-.gallery .content figure{
+.gallery .content figure {
 	width: 90%;
-	border:0;
+	border: 0;
 	margin: 0 auto 20px;
 }
-.gallery .content figure figcaption{
+
+.gallery .content figure figcaption {
 	font-size: 16px;
 	padding-top: 20px;
 	text-align: center;
 }
 
 /*	article */
-article{
+article {
 	font-size: 18px;
 	text-align: left;
-	
 }
-article p{
+
+article p {
 	line-height: 1.6;
-	margin:10px 0;
+	margin: 10px 0;
 }
 /*	form */
-.story, .form-container{
+.story, .form-container {
 	width: 90%;
 	padding: 0;
 	margin: 0 auto;
 }
-.story h1, .form-container h2{
+
+.story h1, .form-container h2 {
 	font-size: 32px;
 	text-align: center;
 }
@@ -155,12 +161,12 @@ article p{
 
 	/* hero content */
 
-	.hero .content{
+	.hero .content {
 		width: 60%;
-	    margin: 20px auto 0;
-
+		margin: 20px auto 0;
 	}
-	.hero .content p{
+
+	.hero .content p {
 		padding-left: 200px;
 	}
 	/* about content */
@@ -168,31 +174,35 @@ article p{
 	.about-content {
 		display: grid;
 		width: 60%;
-	    margin: 0 auto 0;
+		margin: 0 auto 0;
 	}
-	.about-content p{
+
+	.about-content p {
 		padding-left: 200px;
 	}
-	.about-content .my-info{
+
+	.about-content .my-info {
 		padding-left: 300px;
 	}
 	/*  gallery */
-	.gallery .content{
+	.gallery .content {
 		display: flex;
 		margin-top: 50px;
 		margin-bottom: 20px;
 	}
-	.gallery .content figure{
 
+	.gallery .content figure {
 		width: 33%;
-		margin:0;
+		margin: 0;
 		display: flex;
 		border: 1px solid #ccc;
 	}
-	.gallery .content figure picture{
+
+	.gallery .content figure picture {
 		width: 50%;
 	}
-	.gallery .content figure figcaption{
+
+	.gallery .content figure figcaption {
 		width: 50%;
 		text-align: center;
 		padding-top: 80px;
@@ -204,16 +214,15 @@ article p{
 	}
 
 	/* form container */
-	.story,.form-container{
+	.story,.form-container {
 		width: 60%;
-		margin:0 auto;
+		margin: 0 auto;
 		padding: 0 200px;
 	}
-	.story h1,.form-container h2{
+
+	.story h1,.form-container h2 {
 		text-align: center;
 	}
-
-
 }
 
 /* tablet layout >=48rem (768px) */
@@ -221,60 +230,64 @@ article p{
 @media screen and (min-width: 48rem) and (max-width: 64rem) {
 
 	/* hero content */
-	.hero .content{
+	.hero .content {
 		width: 80%;
 		font-size: 26px;
 	}
-	.hero .content p{
+
+	.hero .content p {
 		margin: 5px 0;
 	}
-	.hero .content picture{
+
+	.hero .content picture {
 		margin-bottom: 50px;
-    	display: block;
+		display: block;
 	}
 	/*	about content */
-	.about-content{
+	.about-content {
 		width: 80%;
 		font-size: 26px;
 		margin-bottom: 50px;
 	}
-	.about-content p{
+
+	.about-content p {
 		margin: 5px 0;
 	}
 
 	/*	gallery */
-	.gallery .content{
+	.gallery .content {
 		display: block;
 		width: 90%;
 		margin: 0 auto;
 	}
-	.gallery .content figure{
+
+	.gallery .content figure {
 		width: 100%;
-		border:0;
+		border: 0;
 		margin-bottom: 20px;
 	}
-	.gallery .content figure figcaption{
+
+	.gallery .content figure figcaption {
 		font-size: 32px;
 		padding-top: 150px;
 	}
 
 	/*	article */
-	article{
+	article {
 		font-size: 24px;
 		text-align: left;
-		
 	}
-	article p{
+
+	article p {
 		line-height: 1.8;
 	}
 	/*	form */
-	.story, .form-container{
+	.story, .form-container {
 		width: 80%;
 		padding: 0;
 	}
-	.story h1, .form-container h2{
+
+	.story h1, .form-container h2 {
 		font-size: 32px;
 	}
-
-
 }

@@ -1,0 +1,40 @@
+@media print {
+	body {
+		font-size: 24pt;
+	}
+
+	#contact {
+		display: none;
+	}
+
+	.hero .content p {
+		padding-left: 0;
+		text-align: center;
+	}
+
+	.hero .content .my-info {
+		padding-left: 0;
+	}
+
+	.about-content p {
+		padding-left: 0;
+		text-align: center;
+	}
+
+	.about-content .my-info {
+		padding-left: 0;
+	}
+
+	.gallery .content figure figcaption {
+		font-size: 24pt;
+	}
+
+	article {
+		font-size: 24pt;
+	}
+
+	.story h1, .form-container h2 {
+		font-size: 32pt;
+		text-align: center;
+	}
+}
